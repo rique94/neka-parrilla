@@ -1,0 +1,47 @@
+/* Configurações básicas do arquivo */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: orange;
+}
+
+/* Fazendo o cabeçalho do site */
+header{
+    text-align: center;
+    background-color: rgb(44, 23, 0);
+    color: #ffff;
+}
+header h1{
+    padding-top: 10px;
+    font-size: 40pt;
+}
+    /* Fazendo o nav */
+    nav{
+        text-align: left;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 10pt;
+        color: white;
+        padding: 10px;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-image: linear-gradient(rgb(72, 37, 0), rgb(56, 29, 0));
+        transition: 0.3s;
+    }
+    nav a:hover{
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+        cursor: pointer;
+        }
+
+/* Fazendo o Main */
+
+        
