@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Neka Parrilla</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre nós</a>
-            <a href="#">Cardápio</a>
-            <a href="#">Cozinheiros</a>
-        </nav>
+    <header class="container">
+        <div class="box">
+            <h1>Neka Parrilla</h1>
+        </div>
+        <div class="box">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre nós</a>
+                <a href="#">Cardápio</a>
+                <a href="#">Cozinheiros</a>
+            </nav>
+        </div>
     </header>
     <main>
-        
+        <section class="carrossel">
+            <button class="btn" onclick="voltar()">❮</button>
+            <div class="container-carrossel">
+                <div class="slides" id="slides">
+                    <img src="images/prato1.png" alt="">
+                    <img src="images/prato2.jpg" alt="">
+                    <img src="images/prato3.jpg" alt="">
+                </div>
+            </div>
+            <button class="btn" onclick="proxima()">❯</button>
+        </section>
     </main>
     <footer>
         <h3>O footer</h3>
