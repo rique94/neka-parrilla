@@ -20,9 +20,8 @@ header h1{
 }
     /* Fazendo o nav */
     nav{
-        text-align: left;
+        text-align: center;
         padding: 10px;
-        display: flex;
         gap: 10px;
     }
     nav a{
